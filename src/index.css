@@ -1,0 +1,25 @@
+
+
+:root {
+  background: url(assets/fondomadera.jpg);
+}
+.navBar {
+  background: rgb(19, 18, 18);
+  color: antiquewhite;
+  font-size: x-large;
+  
+}
+.menuList{
+  border-radius: 25%;
+  border: 2px black solid;
+}
+
+.greet {
+  background: url(assets/fondomadera.jpg);
+  text-align: center;
+  font-size: 45px;
+ padding-top: 150px;
+
+}
+
+
