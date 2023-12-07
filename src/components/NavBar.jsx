@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <div className='navBar'>
             <Flex>
-                <Box p='4' >
+                <Box p='6' >
                     CastaBarber
                 </Box>
                 <Spacer />
@@ -29,11 +29,14 @@ const NavBar = () => {
                     </MenuList>
                 </Menu>
                 <Spacer /> 
-                <Box p='4' >
+                <Box p='6' >
                     <CartWidget />
                 </Box>
+                <Box pr='5' pt='5' >
+                    <div>(0)</div>
+                </Box>
             </Flex>
-
+``
 
 
 
