@@ -1,4 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
 
+}
 
 :root {
   background: url(assets/fondomadera.jpg);
@@ -6,12 +10,18 @@
 .navBar {
   background: rgb(19, 18, 18);
   color: antiquewhite;
-  font-size: x-large;
-  
+  font-size: x-large;  
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+  padding: 15px 15px;
+
 }
+
 .menuList{
   border-radius: 25%;
   border: 2px black solid;
+ 
 }
 
 .greet {

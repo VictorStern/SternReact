@@ -1,16 +1,20 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/Navbar';
 import ItemListContainer from './components/ItemListContainer';
+import CartWidget from './components/CartWidget';
 
 const App = () => {
   return (
-    <div>
-
+    <BrowserRouter>
       <NavBar />
-      <ItemListContainer greeting={"♥♦♣♠ Bienvenidos a CastaBarber ♠♣♦♥"} />
 
-    </div>
-  );
+      <Routes>
+        <Route exact path="/" element={<CartWidget />} />
+        
+      </Routes>
+    </BrowserRouter>
+      );
 }
 
 export default App;
